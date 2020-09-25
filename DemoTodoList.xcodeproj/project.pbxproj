@@ -11,6 +11,8 @@
 		82923259251DF080009526EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82923258251DF080009526EC /* ContentView.swift */; };
 		8292325B251DF082009526EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8292325A251DF082009526EC /* Assets.xcassets */; };
 		8292325E251DF082009526EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8292325D251DF082009526EC /* Preview Assets.xcassets */; };
+		82923267251DF478009526EC /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82923266251DF478009526EC /* Todo.swift */; };
+		8292326A251DF606009526EC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82923269251DF606009526EC /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		8292325A251DF082009526EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8292325D251DF082009526EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8292325F251DF082009526EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82923266251DF478009526EC /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		82923269251DF606009526EC /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				82923256251DF080009526EC /* DemoTodoListApp.swift */,
 				82923258251DF080009526EC /* ContentView.swift */,
+				82923266251DF478009526EC /* Todo.swift */,
+				82923269251DF606009526EC /* DataManager.swift */,
 				8292325A251DF082009526EC /* Assets.xcassets */,
 				8292325F251DF082009526EC /* Info.plist */,
 				8292325C251DF082009526EC /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82923259251DF080009526EC /* ContentView.swift in Sources */,
+				8292326A251DF606009526EC /* DataManager.swift in Sources */,
+				82923267251DF478009526EC /* Todo.swift in Sources */,
 				82923257251DF080009526EC /* DemoTodoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
