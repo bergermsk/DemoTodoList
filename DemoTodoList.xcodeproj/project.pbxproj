@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6344E91E251E3C8000BECC03 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344E91D251E3C8000BECC03 /* TodoListViewModel.swift */; };
+		6344E921251E3EA700BECC03 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6344E920251E3EA700BECC03 /* TodoListView.swift */; };
+		63513276251E69120031F86B /* MockDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63513275251E69120031F86B /* MockDataManager.swift */; };
+		63513279251F753B0031F86B /* NewTodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63513278251F753B0031F86B /* NewTodoViewModel.swift */; };
+		6351327D251F76DF0031F86B /* NewTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351327C251F76DF0031F86B /* NewTodoView.swift */; };
+		63F9C69C25287D9000BF1E6D /* TodoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F9C69B25287D9000BF1E6D /* TodoRow.swift */; };
 		82923257251DF080009526EC /* DemoTodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82923256251DF080009526EC /* DemoTodoListApp.swift */; };
 		82923259251DF080009526EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82923258251DF080009526EC /* ContentView.swift */; };
 		8292325B251DF082009526EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8292325A251DF082009526EC /* Assets.xcassets */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6344E91D251E3C8000BECC03 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		6344E920251E3EA700BECC03 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		63513275251E69120031F86B /* MockDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataManager.swift; sourceTree = "<group>"; };
+		63513278251F753B0031F86B /* NewTodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoViewModel.swift; sourceTree = "<group>"; };
+		6351327C251F76DF0031F86B /* NewTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoView.swift; sourceTree = "<group>"; };
+		63F9C69B25287D9000BF1E6D /* TodoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRow.swift; sourceTree = "<group>"; };
 		82923253251DF080009526EC /* DemoTodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82923256251DF080009526EC /* DemoTodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTodoListApp.swift; sourceTree = "<group>"; };
 		82923258251DF080009526EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +72,12 @@
 				82923258251DF080009526EC /* ContentView.swift */,
 				82923266251DF478009526EC /* Todo.swift */,
 				82923269251DF606009526EC /* DataManager.swift */,
+				63513278251F753B0031F86B /* NewTodoViewModel.swift */,
+				6351327C251F76DF0031F86B /* NewTodoView.swift */,
+				63F9C69B25287D9000BF1E6D /* TodoRow.swift */,
+				63513275251E69120031F86B /* MockDataManager.swift */,
+				6344E91D251E3C8000BECC03 /* TodoListViewModel.swift */,
+				6344E920251E3EA700BECC03 /* TodoListView.swift */,
 				8292325A251DF082009526EC /* Assets.xcassets */,
 				8292325F251DF082009526EC /* Info.plist */,
 				8292325C251DF082009526EC /* Preview Content */,
@@ -110,7 +128,7 @@
 				};
 			};
 			buildConfigurationList = 8292324E251DF080009526EC /* Build configuration list for PBXProject "DemoTodoList" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -146,8 +164,14 @@
 			files = (
 				82923259251DF080009526EC /* ContentView.swift in Sources */,
 				8292326A251DF606009526EC /* DataManager.swift in Sources */,
+				63F9C69C25287D9000BF1E6D /* TodoRow.swift in Sources */,
+				6344E921251E3EA700BECC03 /* TodoListView.swift in Sources */,
+				6351327D251F76DF0031F86B /* NewTodoView.swift in Sources */,
+				63513276251E69120031F86B /* MockDataManager.swift in Sources */,
 				82923267251DF478009526EC /* Todo.swift in Sources */,
+				63513279251F753B0031F86B /* NewTodoViewModel.swift in Sources */,
 				82923257251DF080009526EC /* DemoTodoListApp.swift in Sources */,
+				6344E91E251E3C8000BECC03 /* TodoListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
